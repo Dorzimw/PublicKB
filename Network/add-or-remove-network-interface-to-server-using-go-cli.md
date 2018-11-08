@@ -23,6 +23,7 @@ Note: Only one vNIC per VLAN is permitted.
 * Account Alias if you wish to add/remove a network interface to a server in a sub-account
 
 ### Add a Network Interface to a Server
+* **Note** - When adding a secondary Network Interface it MUST use a different vlan than the existing primary.
 
 1. [Login to your account with the Go CLI.](//github.com/CenturyLinkCloud/clc-go-cli#log-in-to-your-centurylink-cloud-account)
 
